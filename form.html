@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <form action="">
+
+<div class="campo">
+    <label for="primerinput">Nombre</label>
+    <input type="text" id="primerinput" pattern="[a-zA-Z]+">
+</div>
+
+<div class="campo">
+    <label for="segundoinput">Apellidos</label>
+    <input type="text" id="segundoinput"  pattern="[a-zA-Z]+">
+</div>
+
+<divclass="campo"> 
+    <label for="tercerinput">edad</label>
+    <input type="number" id="tercerinput" name="numeros" min="18" max="80">
+</div>
+
+<div class="campo">
+    <label for="">sexo</label>
+    <input type="checkbox">hombre
+    <input type="checkbox">mujer
+
+</div class="campo">
+<div class="campo">
+    <label for="quintoinput">DNI</label>
+    <input type="text" id="quintoinput" maxlength="8">
+</div>
+<div class="campo">
+    <label for="sextoinput">email</label>
+    <input type="email" id="sextoinput" >
+</div>
+
+<div class="campo">
+    <input type="submit" value="enviar">
+</div>
+    </form>
+
+    <style>
+        .campo:focus{
+                  color: yellow ;
+        }
+        .campo{
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</body>
+</html>
