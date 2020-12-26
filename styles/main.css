@@ -1,0 +1,42 @@
+
+
+  /* selector de etiquetas */
+
+h1{
+    color: reed;
+}
+
+.cuerpo{
+    background-color: red;
+}
+
+/* selector de ID */
+#parrafo{
+    font-size: 20px;
+}
+ 
+/*selector universal*/
+ *{
+     color:blue;
+ }
+
+ /*selectores descendientes */
+
+ div p{
+     color:brown;
+ }
+
+ /* selector hijo directo */
+  div > h1{
+      color:blue;
+  }
+ /* selector hermano */
+  
+  /*h1 +p {
+      color: brown;
+  }*/
+
+  /*anidamiento*/
+  h1 , p{
+      font-size: 10 px;
+  }
